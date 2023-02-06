@@ -1,0 +1,266 @@
+body {
+    background-color: black;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.continer {
+    background-color: rgb(170, 117, 219);
+    width: 350px;
+    height: 550px;
+    border-radius: 22px;
+    animation-name: con;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: backwards;
+}
+
+@keyframes con {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 350px;
+    }
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    animation-name: ime;
+    animation-duration: 2s;
+    animation-delay: .7s;
+    animation-fill-mode: both;
+    animation-timing-function: ease-out;
+}
+
+@keyframes ime {
+    from {
+        opacity: 0%;
+    }
+    to {
+        opacity: 100%;
+        transform: rotate(360deg);
+    }
+}
+
+.header h3 {
+    font-size: 25px;
+    color: rgb(96, 28, 160);
+    font-weight: 300;
+    font-family: cursive;
+    margin-top: 8px;
+    animation-name: he3;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+}
+
+@keyframes he3 {
+    from {
+        opacity: 0;
+    }
+    to {
+        letter-spacing: 3px;
+    }
+}
+
+.header p {
+    margin-top: 0;
+    font-size: 14px;
+    font-family: monospace;
+    animation-name: pc;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-fill-mode: both;
+}
+
+@keyframes pc {
+    from {
+        opacity: 0;
+    }
+    to {
+        font-size: 16px;
+    }
+}
+
+.input1 {
+    position: relative;
+    margin-right: 50px;
+    padding-left: 30px;
+    outline: none;
+    border: none;
+    width: 230px;
+    height: 35px;
+    background: none;
+    position: relative;
+    float: right;
+    border-radius: 13px;
+    box-shadow: 1px 1px 15px white;
+    animation-name: input1;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: both;
+}
+
+.icon1 {
+    position: absolute;
+    margin-left: 48px;
+    margin-top: 11px;
+    color: rgba(32, 29, 29, 0.712);
+    animation-name: icon1;
+    animation-duration: 1s;
+    animation-delay: 3s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: both;
+}
+
+@keyframes icon1 {
+    from {
+        opacity: 0%;
+    }
+    to {
+        opacity: 100%;
+    }
+}
+
+@keyframes input1 {
+    from {
+        width: 0%;
+        opacity: 0%;
+    }
+    to {
+        width: 230px;
+        opacity: 100%;
+    }
+}
+
+.input2 {
+    position: relative;
+    margin-right: 50px;
+    padding-left: 30px;
+    outline: none;
+    border: none;
+    width: 230px;
+    height: 35px;
+    background: none;
+    position: relative;
+    float: right;
+    border-radius: 13px;
+    margin-top: 20px;
+    box-shadow: 1px 1px 15px white;
+    animation-name: input2;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: both;
+   
+}
+
+.icon2 {
+    position: absolute;
+    margin-left: 48px;
+    margin-top: 67px;
+    color: rgba(32, 29, 29, 0.712);
+    animation-name: icon1;
+    animation-duration: 1s;
+    animation-delay: 3s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: both;
+}
+
+@keyframes input2 {
+    from {
+        width: 0%;
+        opacity: 0%;
+    }
+    to {
+        width: 230px;
+        opacity: 100%;
+    }
+}
+
+@keyframes icon2 {
+    from {
+        opacity: 0%;
+    }
+    to {
+        opacity: 100%;
+    }
+}
+
+button {
+    margin-top: 30px;
+    margin-left: 8%;
+    background-color: rgb(104, 17, 185);
+    border: none;
+    outline: none;
+    padding: 13px 120px 13px 120px;
+    border-radius: 20px;
+    font-size: 18px;
+    color: white;
+    font-family: cursive;
+    animation-name: butt;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: both;
+    cursor: pointer;
+    box-shadow:  2px 2px 15px white;
+}
+
+@keyframes butt {
+    from {
+        opacity: 0%;
+        padding: 0px 0px 0px 0px;
+    }
+    to {
+        opacity: 100%;
+        padding: 13px 120px 13px 120px;
+    }
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: rgb(91, 13, 165);
+    animation-name: p1;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: both;
+}
+
+@keyframes p1{
+    from{
+        opacity: 0%;
+        
+    }
+    to{
+        opacity: 100%;
+        letter-spacing: 1px;
+    }
+}
+
+.eye{
+   position: absolute;
+   margin: 68px 0 0 43px;
+   cursor: pointer;
+ 
+}
+
